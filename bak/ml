@@ -1,0 +1,4 @@
+pyuic5 -x box.ui -o ui_box.py
+
+
+python -m nuitka --standalone --enable-plugin=pyqt5  --disable-console --mingw64 --windows-icon-from-ico=static/img/icon.ico main.py
